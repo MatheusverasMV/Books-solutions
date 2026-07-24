@@ -1,0 +1,5 @@
+salario =  float(input("Diga seu salario atual: "))
+aumento = float(input("Diga quantos porcento de aumento você recebeu: "))
+print("Um aumento de %5.2f %% em um salário de R$ %7.2f"%(aumento, salario))
+print("é igual a um aumento de R$ %4.2f" % (aumento*salario/100))
+print("Resultando em um novo salário de R$ %7.2f" %(salario + salario*aumento/100))
