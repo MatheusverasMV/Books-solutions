@@ -13,4 +13,11 @@ books_error_data = { 0:25,
                     4:1
 } 
 
-print(mean(list(books_error_data.keys()), list(books_error_data.values())))
+def median
+
+
+
+
+
+
+print(f"Mean: {mean(list(books_error_data.keys()), list(books_error_data.values()))}")
