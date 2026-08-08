@@ -21,6 +21,8 @@ def median(data, frequency):
     else:
         return data[len(data)//2]
 
+def standard_deviation
+
 
 print(f"Mean: {mean(list(books_error_data.keys()), list(books_error_data.values()))}")
 print(f"Median: {median(list(books_error_data.keys()), list(books_error_data.values()))}")
