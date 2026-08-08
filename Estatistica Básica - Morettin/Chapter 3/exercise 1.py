@@ -38,3 +38,4 @@ print(f"Mean: {mean(list(books_error_data.keys()), list(books_error_data.values(
 print(f"Median: {median(list(books_error_data.keys()))}")
 print(f"Variance: {variance(list(books_error_data.keys()), list(books_error_data.values()))}")
 print(f"Standard Deviation: {standard_deviation(list(books_error_data.keys()), list(books_error_data.values()))}")
+print(f"If the books have 500 pages, the total number of errors is: {mean(list(books_error_data.keys()), list(books_error_data.values())) * 500}")
