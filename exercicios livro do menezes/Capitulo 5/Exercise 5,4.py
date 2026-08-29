@@ -1,6 +1,6 @@
 fim=int(input("Digite o último número a imprimir: "))
 x = 1
 while x <= fim:
-    if x%2==1:
+    if x%2 == 1:
         print(x)
-    x+=2
+    x+=2    
