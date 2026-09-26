@@ -5,14 +5,21 @@ class televisao():
         self.tamanho = 32
         self.marca = "LG"
 
-tv = televisao()
-tv.ligada = True
-tv.tamanho = 27
-tv.marca = "samsung"
-tv_sala = televisao()
-tv_sala.ligada = True
-tv_sala.tamanho = 42
-tv_sala.marca = "Philco"
+    def ligar(self):
+        self.ligada = True
 
-print("O TV da sala é da marca %s, tem %d polegas" % (tv_sala.marca, tv_sala.tamanho))
-print("A tv do quarto é da marca %s, tem %d polegas" % (tv.marca, tv.tamanho))
+    def muda_canal_pra_cima(self):
+        if self.ligada:
+            self.canal +=1
+        else:
+            return "A televisão está desligada"
+
+    def muda_canal_pra_baixo(self):
+        if self.ligada:
+            self.canal -=1
+        else:
+            return "A televisão está desligada"
+
+while True:
+    tv = televisao()
+    
