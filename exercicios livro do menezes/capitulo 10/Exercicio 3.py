@@ -28,12 +28,12 @@ while True:
         break
 
     elif opcao == "1":
-        tv.ligada = True
-        print("TV ligada!\n")
-
-    elif (opcao == "1") and (tv.ligada == True):
-        tv.ligada = False
-        print("TV desligada!\n")
+        if tv.ligada == True:
+            tv.ligada = False
+            print("TV desligada!\n")
+        else:
+            tv.ligada = True
+            print("TV ligada!\n")
 
     elif opcao == "2":
 
