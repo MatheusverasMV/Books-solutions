@@ -1,6 +1,6 @@
 class Televisão:
 
-    def __init__(self,canal_inicial, min, max):
+    def __init__(self,canal_inicial, min=2, max=14):
         self.ligada = False
         self.canal = canal_inicial
         self.cmin = min
@@ -18,7 +18,7 @@ class Televisão:
         else:
             self.canal = self.cmax
 
-tv = Televisão(2,1,5)
+tv = Televisão(2,2,14)
 while True:
     print("Aperte 0 para sair\nAperte 1 para ligar ou desligar a tv\nAperte 2 para subir o canal\nAperte 3 para descer o canal")
     opcao = input("Escolha uma opção: ")
